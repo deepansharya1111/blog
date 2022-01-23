@@ -48,3 +48,22 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+layouts:
+  - title:      Introduction
+    children:
+      - title:  Welcome
+        url:    /2021/07/04/welcome.html
+      - title:  What are CTFs?
+        url:    /2021/04/04/What-Are-CTFs.html
+      - title:  What are Assigments?
+        url:    /2021/07/04/what-are-assignments.html
+      - title:  Contribute
+        url:    /2021/04/04/contributions.html
+  - title:      Cryptography
+    children:   
+      - title:  cryptography
+  - title:      Assignments
+    children:
+      - title:  What are assignments
+        url:    /2021/07/04/what-are-assignments.html
+
