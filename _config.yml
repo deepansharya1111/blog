@@ -18,11 +18,11 @@
 ##############################
 text_skin: "dark" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: "tomorrow-night-bright" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "https://deepansharya1111.github.io/"
+url     : "https://deepansharya1111.github.io"
 baseurl : "/blog"
-title   : deepansharya's blog 2021
+title   : Ctf tutorials the fun way
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Learn the necessary Evil
 
 
 ## => Language and Timezone
@@ -83,14 +83,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: false
+mathjax_autoNumber: false
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: false
 
 ## Chart
-chart: # false (default), true
+chart: false
 
 
 ## => Paginate
@@ -121,7 +121,7 @@ comments:
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: https-deepansharya1111-github-io
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -168,11 +168,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: "google" # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : "G-LNQE6M24XE" # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
@@ -185,6 +185,8 @@ permalink   : date
 exclude:
   - LICENSE
   - README.md
+  - /assigments
+  - CONTRIBUTING.md
 
 
 defaults:
@@ -197,7 +199,7 @@ defaults:
       license: true
       aside:
         toc: true
-      show_edit_on_github: true
+      show_edit_on_github: false
       show_subscribe: true
       pageview: true
 
